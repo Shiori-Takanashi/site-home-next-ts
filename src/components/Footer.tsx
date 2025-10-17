@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Footer() {
     return (
         <footer className="bg-background border-t border-foreground/10 mt-20">
@@ -16,18 +18,18 @@ export default function Footer() {
                     <div>
                         <h3 className="font-bold text-lg mb-4">Quick Links</h3>
                         <div className="space-y-2">
-                            <a href="/" className="block text-foreground/70 hover:text-foreground transition-colors text-sm">
+                            <Link href="/" className="block text-foreground/70 hover:text-foreground transition-colors text-sm">
                                 Home
-                            </a>
-                            <a href="/about" className="block text-foreground/70 hover:text-foreground transition-colors text-sm">
+                            </Link>
+                            <Link href="/about" className="block text-foreground/70 hover:text-foreground transition-colors text-sm">
                                 About
-                            </a>
-                            <a href="/projects" className="block text-foreground/70 hover:text-foreground transition-colors text-sm">
+                            </Link>
+                            <Link href="/projects" className="block text-foreground/70 hover:text-foreground transition-colors text-sm">
                                 Projects
-                            </a>
-                            <a href="/contact" className="block text-foreground/70 hover:text-foreground transition-colors text-sm">
+                            </Link>
+                            <Link href="/contact" className="block text-foreground/70 hover:text-foreground transition-colors text-sm">
                                 Contact
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
