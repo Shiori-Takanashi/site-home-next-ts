@@ -1,0 +1,40 @@
+.
+├── README.md
+├── docs
+│   ├── config.md
+│   ├── vercel
+│   │   ├── step01.md
+│   │   └── step02.md
+│   └── version01
+│       ├── step01.md
+│       └── step02.md
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+├── src
+│   ├── app
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── components
+│       ├── Contact.tsx
+│       ├── Footer.tsx
+│       ├── Header.tsx
+│       ├── Hero.tsx
+│       ├── Projects.tsx
+│       └── Skills.tsx
+├── tailwind.config.js
+├── tree.txt
+└── tsconfig.json
+
+8 directories, 30 files
