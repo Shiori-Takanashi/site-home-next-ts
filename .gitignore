@@ -90,7 +90,6 @@ tmp/
 temp/
 
 # Documentation (development notes)
-docs/
 *.md.backup
 
 # Cache directories
